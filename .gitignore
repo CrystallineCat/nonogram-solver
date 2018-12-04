@@ -6,12 +6,20 @@
 *.pyc
 *.pyo
 *.egg-info
+.venv/*
 
 # Test files
 .cache/*
 */.cache/*
 .coverage
+.pytest_caches/*
 
 # build files
 build/*
 dist/*
+
+# PyCharm
+.idea/*
+
+# Jupyter
+.ipynb_checkpoints/*
